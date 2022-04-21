@@ -1,6 +1,6 @@
 ---
-apiVersion: apps.openshift.io/v1
-kind: DeploymentConfig
+apiVersion: v1
+kind: Deployment
 metadata:
   labels:
     app: bgd
